@@ -1,10 +1,10 @@
 {
     "name": "bou-treasure",
     "version": "1.0.0",
-    "main": "index.html",
+    "main": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nw",
+        "start": "nw dist",
         "build": "nwbuild -p osx64 -o build/ app/",
         "gulp": "gulp",
         "gulp:watch": "gulp --watch"
@@ -21,7 +21,9 @@
         "gulp": "^4.0.2",
         "gulp-clean-css": "^4.2.0",
         "gulp-eslint": "^6.0.0",
+        "gulp-htmlmin": "^5.0.1",
         "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^6.2.0",
         "gulp-plumber": "^1.2.1",
         "gulp-sass": "^4.0.2",
         "gulp-strip-debug": "^3.0.0",
